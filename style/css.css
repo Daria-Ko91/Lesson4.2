@@ -1,0 +1,77 @@
+header{
+    background: royalblue;
+    height: 80px;
+}
+body{
+    text-align: center;
+    padding:20px;
+}
+article{
+    background-color: blue;
+}
+.column{
+    display: inline-block;
+    vertical-align: bottom;
+    margin-bottom:20px;
+    margin-left: 20px;
+    margin: 10%;
+}
+.parent{
+    font-size: 0;
+}
+.width-33{
+    width:33%;
+}
+.width-66{
+    width:66;
+}
+.width-50{
+    width: 50%;
+}
+.inline-block{
+    display:inline-block;
+    min-height: 40px;
+    font-size: 16px;
+    padding:0%;
+    text-align: center;
+}
+.column1{
+    background-image: url(../images/312368847237da8b5d70af6588835591.jpg);
+}
+.column2{
+    background-image: url(../images/pngtree-things-for-baby-pattern-cartoon-style-png-image_1949015.jpg);
+}
+.column3{
+    background-image: url(../images/sadiki.png);
+}
+.column4{
+    background-image: url(../images/unnamed.jpg);
+}
+.float1{
+    background-image: url(../images/312368847237da8b5d70af6588835591.jpg);
+}
+.float2{
+    background-image: url(../images/pngtree-things-for-baby-pattern-cartoon-style-png-image_1949015.jpg);
+}
+.float3{
+    background-image: url(../images/sadiki.png);
+}
+.float4{
+    background-image: url(../images/unnamed.jpg);
+}
+.clearfix::after{
+    content: "";
+    display:block;
+    clear:both;
+}
+.float-block{
+    float: left;
+}
+.footer{
+    display: flexbox;
+    justify-content: center;
+    padding: 25px;
+    height: 20px;
+    background-color: rgb(137, 139, 0);
+    color:rgb(0, 255, 76); 
+}
