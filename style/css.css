@@ -14,7 +14,7 @@ article{
     vertical-align: bottom;
     margin-bottom:20px;
     margin-left: 20px;
-    margin: 10%;
+    margin: 10px;
 }
 .parent{
     font-size: 0;
@@ -23,7 +23,7 @@ article{
     width:33%;
 }
 .width-66{
-    width:66;
+    width:66%;
 }
 .width-50{
     width: 50%;
@@ -33,7 +33,7 @@ article{
     min-height: 40px;
     font-size: 16px;
     padding:0%;
-    text-align: center;
+    text-align: left;
 }
 .column1{
     background-image: url(../images/312368847237da8b5d70af6588835591.jpg);
@@ -64,7 +64,7 @@ article{
     display:block;
     clear:both;
 }
-.float-block{
+.float{
     float: left;
 }
 .footer{
